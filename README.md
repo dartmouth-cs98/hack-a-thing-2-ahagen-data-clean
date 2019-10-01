@@ -17,7 +17,7 @@ https://www.hackerearth.com/practice/machine-learning/data-manipulation-visualis
 I learned how to use dataframes in pandas, and the helpful functions available through numpy to change and pivot data in arrays.
 I also learned how to scrape my web browser history and create a simple machine learning example with sklearn.
 
-###How does this hack-a-thing inspire you or relate to your possible project ideas?
+### How does this hack-a-thing inspire you or relate to your possible project ideas?
 I think it would be really cool to work on a project that is data reliant and I'm glad I became more familier with the tools for data cleaning.
 I also think a machine learning model for predicting habits could be really useful and not so difficult after doing the tutorials.
 
