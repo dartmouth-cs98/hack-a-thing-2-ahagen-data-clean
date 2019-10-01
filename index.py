@@ -39,4 +39,17 @@ site_frequencies.reset_index(level=0, inplace=True)
 # Rename columns to appropriate names
 site_frequencies.columns = ['domain', 'count']
 # Display top 2
-print(site_frequencies.head(20))
+#print(site_frequencies.head(20))
+
+subjects = {"tech" : 0, "news": 0}
+
+for index, row in data2019.iterrows():
+	#print(row['url'])
+	if "tech" in row['url']:
+		subjects["tech"] += 1
+	if "news." in row['url'] or "cnn" in row['url'] or "nytimes" in row['url'] or "techcrunch" in row['url'] or "vox" in row['url'] or "vice" in row['url'] or "verge" in row['url']:
+		#print(row['url'])
+		subjects["news"] +=1
+# show frequency of urls within the subjects tech and news
+print(subjects)
+
