@@ -4,7 +4,8 @@ hack-a-thing-2-ahagen-data-clean created by GitHub Classroom
 ### Short description of what you attempted to build
 I wanted to learn how to clean complex data sets with the Pandas and Numpy python libraries and begin to understand how they can be used for machine learning. 
 I used a few tutorials and read a lot online about what's important to know about web scraping and data cleaning. 
-I also thought it would be cool to analyze my own web browser history and found information for how to use sqlite to get the data into a readable file which was cool. This part took me longer than I thought since I also had to figure out how to get rid of some irregularly dated web history in the file.
+I also thought it would be cool to analyze my own web browser history and found information for how to use sqlite to get the data into a readable file which was cool. This part took me longer than I thought since I also had to figure out how to get rid of some irregularly dated web history in the file. 
+I enjoyed also adding a data visualization as a pie graph of my most frequently visited websites.
 After finishing playing with my web browser history, I used a different tutorial to create a simple ML model on a public data set.
 Here are some links I used:
 https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python
